@@ -54,7 +54,7 @@ const ProjectSection = () => {
     );
 
   return (
-    <div>
+    <div className="projects">
         <h2 className='text-center text-3xl md:text-4xl font-bold text-white mt-4 py-6 px-3'>My Projects</h2>
         <div className='text-white flex flex-wrap justify-center items-center gap-2 py-6'>
             <ProjectTag 
@@ -84,16 +84,16 @@ const ProjectSection = () => {
             />
         </div>
         <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
-        {filterProjects.map((project) => 
-        <ProjectCard 
-            key={project.id} 
-            title={project.title} 
-            description={project.description} 
-            imgUrl={project.image} 
-            tags={project.tag}
-            gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
-        />)}
+            {filterProjects.map((project) => 
+            <ProjectCard 
+                key={project.id} 
+                title={project.title} 
+                description={project.description} 
+                imgUrl={project.image} 
+                tags={project.tag}
+                gitUrl={project.gitUrl}
+                previewUrl={project.previewUrl}
+            />)}
         </div>
     </div>
   )
