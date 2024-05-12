@@ -37,7 +37,7 @@ const projectData = [
         description: "Online portfolio created in React and Next.js.",
         image: "/images/project-images/nothinghere.png",
         tag: ['All', 'Web'],
-        gitUrl: "/",
+        gitUrl: "https://github.com/myang5128/Portfolio",
         previewUrl: "/"
     },
 ]
