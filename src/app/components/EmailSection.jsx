@@ -43,11 +43,11 @@ const EmailSection = () => {
     </div>
     <div className='z-10'>
         <h5 className='text-xl font-bold text-white my-2'>
-            Let's Connect
+            Connect With Me
         </h5>
         <p className='text-white mb-4 max-w-md'>
         {" "}
-        I'm currently looking for entry level positions in the tech industry. Feel free to send 
+        I am currently looking for entry level positions in the tech industry. Feel free to send 
         an email to talk or to see how my qualifications align with your company needs. Thank you!
         </p>
         <div className="socials flex flex-row gap-2">

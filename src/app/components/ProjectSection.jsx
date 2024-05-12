@@ -36,7 +36,7 @@ const projectData = [
         title: "Online Portfolio",
         description: "Online portfolio created in React and Next.js.",
         image: "/images/project-images/nothinghere.png",
-        tag:['All', 'Web'],
+        tag: ['All', 'Web'],
         gitUrl: "/",
         previewUrl: "/"
     },
@@ -50,53 +50,53 @@ const ProjectSection = () => {
     }
 
     const filterProjects = projectData.filter((project) =>
-         project.tag.includes(tag)
+        project.tag.includes(tag)
     );
 
-  return (
-    <div className="projects">
-        <h2 className='text-center text-3xl md:text-4xl font-bold text-white mt-4 py-6 px-3'>Projects</h2>
-        <div className='text-white flex flex-wrap justify-center items-center gap-2 py-6'>
-            <ProjectTag 
-                onClick={handleTagChange} 
-                name="All" 
-                isSelected={tag === "All"} 
-            />
-            <ProjectTag 
-                onClick={handleTagChange} 
-                name="Web" 
-                isSelected={tag === "Web"} 
-            />
-            <ProjectTag 
-                onClick={handleTagChange} 
-                name="Game" 
-                isSelected={tag === "Game"} 
-            />
-            <ProjectTag 
-                onClick={handleTagChange} 
-                name="ML" 
-                isSelected={tag === "ML"} 
-            />
-            <ProjectTag 
-                onClick={handleTagChange} 
-                name="Data" 
-                isSelected={tag === "Data"} 
-            />
+    return (
+        <div className="projects">
+            <h2 className='text-center text-3xl md:text-4xl font-bold text-white mt-4 py-6 px-3'>Projects</h2>
+            <div className='text-white flex flex-wrap justify-center items-center gap-2 py-6'>
+                <ProjectTag
+                    onClick={handleTagChange}
+                    name="All"
+                    isSelected={tag === "All"}
+                />
+                <ProjectTag
+                    onClick={handleTagChange}
+                    name="Web"
+                    isSelected={tag === "Web"}
+                />
+                <ProjectTag
+                    onClick={handleTagChange}
+                    name="Game"
+                    isSelected={tag === "Game"}
+                />
+                <ProjectTag
+                    onClick={handleTagChange}
+                    name="ML"
+                    isSelected={tag === "ML"}
+                />
+                <ProjectTag
+                    onClick={handleTagChange}
+                    name="Data"
+                    isSelected={tag === "Data"}
+                />
+            </div>
+            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+                {filterProjects.map((project) =>
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        imgUrl={project.image}
+                        tags={project.tag}
+                        gitUrl={project.gitUrl}
+                        previewUrl={project.previewUrl}
+                    />)}
+            </div>
         </div>
-        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
-            {filterProjects.map((project) => 
-            <ProjectCard 
-                key={project.id} 
-                title={project.title} 
-                description={project.description} 
-                imgUrl={project.image} 
-                tags={project.tag}
-                gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
-            />)}
-        </div>
-    </div>
-  )
+    )
 }
 
 export default ProjectSection

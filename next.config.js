@@ -6,7 +6,7 @@ module.exports = {
             test: /\.pdf$/,
             use: [
                 {
-                    loader: isServer ? 'file-loader' : 'url-loader',
+                    loader: 'file-loader' ,
                     options: {
                         publicPath: '/_next',
                         outputPath: 'static/images/',

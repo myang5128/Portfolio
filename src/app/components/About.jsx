@@ -75,7 +75,7 @@ const About = () => {
                         I am a software developer with a passion of creating impactful projects. I have experience
                         working with machine learning technology, web and mobile development, and with data analysis and visualization.
                         I am proud to say I am confident in using Python, Java, R, SQL, HTML, CSS, React, and Git.
-                        From my academic years at Vassar College, I've developed a keen and analytical mindset that allows
+                        From my academic years at Vassar College, I have developed a keen and analytical mindset that allows
                         me to tackle new challenges with a positive and can-do attitude. I am excited to grow my knowledge
                         and skill set through personal projects and professional experiences.
                     </p>
