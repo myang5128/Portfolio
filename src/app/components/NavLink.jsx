@@ -6,7 +6,7 @@ const NavLink = ({ href, title }) => {
         const target = document.querySelector(href);
         if (target) {
             window.scrollTo({
-                top: target.offsetTop,
+                top: target.offsetTop - 50,
                 behavior: 'smooth',
             });
         }

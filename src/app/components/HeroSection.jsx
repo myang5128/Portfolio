@@ -2,8 +2,21 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import Resume from "../../../public/resume.pdf";
 
 const HeroSection = () => {
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        const target = document.querySelector('.contact');
+        if (target) {
+            window.scrollTo({
+                top: target.offsetTop - 50,
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         <section>
             <div className="place-self-center text-center sm:text-left">
@@ -30,12 +43,15 @@ const HeroSection = () => {
                 I'm a passionate programmer who loves to learn and create new projects with a focus on Python and Java development.
                 </p>
                 <div className="mt-10">
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-tr from-[#03045E] via-[#00B4D8] to-[#90E0EF] text-black hover:text-white hover:bg-gradient-to-bl">
+                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-tr from-[#03045E] via-[#00B4D8] to-[#90E0EF] text-black hover:text-white hover:bg-gradient-to-bl"
+                    onClick={handleClick}>
                     Contact Me
                     </button>
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-[#121212] text-white border border-white  hover:bg-[#00B4D8] mt-3 hover:text-black">
-                    Download Resume
-                    </button>
+                    <a href={Resume} download="MikeResume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-[#121212] text-white border border-white  hover:bg-[#00B4D8] mt-3 hover:text-black">
+                        Download Resume
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>

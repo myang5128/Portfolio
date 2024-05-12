@@ -6,38 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 import emailjs from '@emailjs/browser';
 
-
-/* const EmailSection = () => {
-
-    const [emailSubmitted, setEmailSubmitted] = useState(false);
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        const data = {
-            email: e.target.email.value,
-            subject: e.target.subject.value,
-            message: e.target.message.value,
-        }
-        const JSONdata = JSON.stringify(data);
-        const endpoint = "/api/send";
-
-        const options = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSONdata,
-        }
-
-        const response = await fetch(endpoint, options);
-        const resData = await response.json();
-
-        if (response.status === 200) {
-            console.log("MESSAGE SENT!");
-            setEmailSubmitted(true);
-        }
-    } */
-
 const EmailSection = () => {
 
   const form = useRef();
@@ -83,10 +51,10 @@ const EmailSection = () => {
         an email to talk or to see how my qualifications align with your company needs. Thank you!
         </p>
         <div className="socials flex flex-row gap-2">
-            <Link href="github.com">
+            <Link href="https://github.com/myang5128" target="_blank">
                 <Image src={GithubIcon} alt="Github Icon" />
             </Link>
-            <Link href="linkedin.com">
+            <Link href="https://www.linkedin.com/in/michael-yang-9b46b6208/" target="_blank">
                 <Image src={LinkedinIcon} alt="LinkedIn Icon" />
             </Link>
         </div>
