@@ -11,34 +11,38 @@ const projectData = [
         image: "/images/project-images/mtimage.png",
         tag: ['All', 'ML'],
         gitUrl: "/",
-        previewUrl: "/"
+        previewUrl: "/",
+        backgroundVar: "cover"
     },
     {
         id: 2,
         title: "Android Video Game App Prototype",
         description: "A prototype RPG, roguelike game made for Android devices.",
-        image: "/images/project-images/nothinghere.png",
+        image: "/images/project-images/android-game.png",
         tag: ['All', 'Game'],
         gitUrl: "/",
-        previewUrl: "/"
+        previewUrl: "/",
+        backgroundVar: "contain"
     },
     {
         id: 3,
         title: "Analyzing Steam Game Success",
         description: "Analysing factors that classify Steam game success.",
-        image: "/images/project-images/nothinghere.png",
+        image: "/images/project-images/steam-pic.jpg",
         tag: ['All', 'ML', 'Data'],
         gitUrl: "/",
-        previewUrl: "/"
+        previewUrl: "/",
+        backgroundVar: "contain"
     },
     {
         id: 4,
         title: "Online Portfolio",
         description: "Online portfolio created in React and Next.js.",
-        image: "/images/project-images/nothinghere.png",
+        image: "/images/project-images/vercel-port-image.png",
         tag: ['All', 'Web'],
         gitUrl: "https://github.com/myang5128/Portfolio",
-        previewUrl: "/"
+        previewUrl: "/",
+        backgroundVar: "cover"
     },
 ]
 
@@ -93,6 +97,7 @@ const ProjectSection = () => {
                         tags={project.tag}
                         gitUrl={project.gitUrl}
                         previewUrl={project.previewUrl}
+                        backgroundVar={project.backgroundVar}
                     />)}
             </div>
         </div>
