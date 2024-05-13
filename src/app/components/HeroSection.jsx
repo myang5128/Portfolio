@@ -16,7 +16,7 @@ const HeroSection = () => {
     };
 
     return (
-        <section>
+        <section className="hero">
             <div className="place-self-center text-center sm:text-left">
                 <h1 className="text-white mb-4 text-2xl sm:text-5xl lg:text-6xl font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#03045E] to-[#00B4D8] ">Hi, I am{" "}</span>
