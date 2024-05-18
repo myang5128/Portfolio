@@ -7,7 +7,7 @@ const projectData = [
     {
         id: 1,
         title: "Spanish to Chinese Translator",
-        description: "A machine translation model that can translate between Spanish/English to English/Chinese.",
+        description: "A machine translation model that can translate between Spanish/English to English/Chinese. Currently doesn't have a Git repo - plans to incorporate the translation software into portfolio.",
         image: "/images/project-images/mtimage.png",
         tag: ['All', 'ML'],
         gitUrl: "/",
@@ -20,17 +20,17 @@ const projectData = [
         description: "A prototype RPG, roguelike game made for Android devices.",
         image: "/images/project-images/android-game.png",
         tag: ['All', 'Game'],
-        gitUrl: "/",
+        gitUrl: "https://github.com/myang5128/Steampunk-Game",
         previewUrl: "/",
         backgroundVar: "contain"
     },
     {
         id: 3,
         title: "Analyzing Steam Game Success",
-        description: "Analysing factors that classify Steam game success.",
+        description: "Analysing factors that classify Steam game success. Currently only shows",
         image: "/images/project-images/steam-pic.jpg",
         tag: ['All', 'ML', 'Data'],
-        gitUrl: "/",
+        gitUrl: "https://github.com/myang5128/analyzing-steam-game/tree/Main",
         previewUrl: "/",
         backgroundVar: "contain"
     },
