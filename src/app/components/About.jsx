@@ -15,6 +15,7 @@ const Tab_Data = [
                         <li> - Java</li>
                         <li> - R</li>
                         <li> - SQL</li>
+                        <li> - REST APIs</li>
                     </ul>
                 </div>
                 <div>
@@ -23,6 +24,7 @@ const Tab_Data = [
                         <li> - CSS</li>
                         <li> - React</li>
                         <li> - Git</li>
+                        <li> - Web and Mobile Development</li>
                     </ul>
                 </div>
             </div>
