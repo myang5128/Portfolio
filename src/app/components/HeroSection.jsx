@@ -51,7 +51,7 @@ const HeroSection = () => {
                     </button>
                     <button
                         className="px-6 py-3 w-full sm:w-fit rounded-full bg-[#121212] text-white border border-white  hover:bg-[#00B4D8] mt-3 hover:text-black">
-                        <a href="/downloads/resume.pdf" download='Mike Resume.pdf'>Download Resume</a>
+                        <a href="/downloads/resume.pdf" download='resume.pdf'>Download Resume</a>
                     </button>
                 </div>
             </div>
