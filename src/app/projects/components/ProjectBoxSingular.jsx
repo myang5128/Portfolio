@@ -36,12 +36,12 @@ const ProjectBoxSingular = ({ name, teamStyle, description, features, tech, git,
       <ul>
         <li>
           {git && (
-            <Link className="lg:text-xl text-l text-[#F4FDD9] pl-2 mb-1" href={git} target="_blank">GitHub</Link>
+            <Link className="lg:text-xl text-l text-[#F4FDD9] pl-2 mb-1" href={git} target="_blank">GitHub Link</Link>
           )}
         </li>
         <li>
           {link && (
-            <Link className="lg:text-xl text-l text-[#F4FDD9] pl-2 mb-1" href={link} target="_blank">Link</Link>
+            <Link className="lg:text-xl text-l text-[#F4FDD9] pl-2 mb-1" href={link} target="_blank">Website Link</Link>
           )}
         </li>
       </ul>

@@ -94,8 +94,8 @@ const boxList = [
             "Tailwind CSS",
             "HTML",
         ],
-        "projectGit": "https://github.com/myang5128/analyzing-steam-game",
-        "projectLink": "",
+        "projectGit": "https://github.com/myang5128/Portfolio",
+        "projectLink": "https://portfolio-michaely-dev.vercel.app",
         "tags": ["All", "Web Development"],
       },
     ]
