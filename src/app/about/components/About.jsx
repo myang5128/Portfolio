@@ -18,9 +18,10 @@ const About = () => {
               alt="Profile Picture"
             />
             <p className="lg:text-xl text-1">
-              I&apos;m a <strong>Vassar College Computer Science</strong> graduate of 2024. At Vassar, I&apos;ve worked on several projects including creating an Android video game app prototype, a data analysis and science project, and a machine learning project 
-              that involves creating a machine translation software capable of translating from Spanish to Chinese with a decent accuracy score. Some of the most important skills I&apos;ve learned at Vassar were working with technology <strong>(Python, Java, Github, Software Development)</strong> and
-              with others <strong>(Agile, Collaborative Teamwork)</strong>. I believe the skills I gained are invaluable to both myself and my future employers. Outside of Vassar, I continue to focus on my learning by working on projects and learning new skills like <strong>SQL</strong> and <strong>Tableau</strong>.
+              I am a 2024 graduate of Vassar College with a degree in Computer Science. During my time at Vassar, I worked on several meaningful projects, including developing an Android video game app prototype, conducting
+              data analysis and science research, and creating a machine learning model capable of translating Spanish to Chinese with good accuracy. Through these experiences, I honed my skills in technology (Python, 
+              Java, GitHub, Software Development) and collaboration (Agile methodologies, teamwork), which I believe are invaluable assets to my future career. Beyond my academic achievements, I am committed to continuous learning 
+              and growth. I actively work on new projects and expanding my skill sets. Currently, I am working on Web Development using React.js by creating websites I am passionate about.
             </p>
           </div>
         </div>
