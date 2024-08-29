@@ -18,8 +18,8 @@ const About = () => {
               alt="Profile Picture"
             />
             <p className="lg:text-xl text-1">
-              I'm a <strong>Vassar College Computer Science</strong> graduate of 2024. At Vassar, I've worked on several projects including creating an Android video game app prototype, a data analysis and science project, and a machine learning project 
-              that involves creating a machine translation software capable of translating from Spanish to Chinese with a decent accuracy score. Some of the most important skills I've learned at Vassar were working with technology <strong>(Python, Java, Github, Software Development)</strong> and
+              I&apos;m a <strong>Vassar College Computer Science</strong> graduate of 2024. At Vassar, I&apos;ve worked on several projects including creating an Android video game app prototype, a data analysis and science project, and a machine learning project 
+              that involves creating a machine translation software capable of translating from Spanish to Chinese with a decent accuracy score. Some of the most important skills I&apos;ve learned at Vassar were working with technology <strong>(Python, Java, Github, Software Development)</strong> and
               with others <strong>(Agile, Collaborative Teamwork)</strong>. I believe the skills I gained are invaluable to both myself and my future employers. Outside of Vassar, I continue to focus on my learning by working on projects and learning new skills like <strong>SQL</strong> and <strong>Tableau</strong>.
             </p>
           </div>
