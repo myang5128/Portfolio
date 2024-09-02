@@ -112,8 +112,8 @@ const boxList = [
             "Scraping",
             "APIs",
         ],
-        "projectGit": "https://github.com/myang5128/Portfolio",
-        "projectLink": "https://portfolio-michaely-dev.vercel.app",
+        "projectGit": "https://github.com/myang5128/Spotify-Playlist-Builder",
+        "projectLink": "",
         "tags": ["All", "Python"],
       },
     ]
