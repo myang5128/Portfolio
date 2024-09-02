@@ -79,7 +79,7 @@ const boxList = [
         "projectName": "Professional Portfolio",
         "projectID": 4,
         "projectTeamStyle": "Independent",
-        "projectDescription": "An onlione portfolio that encapsulates my skills, experiences, and projects",
+        "projectDescription": "An online portfolio that encapsulates my skills, experiences, and projects",
         "projectFeatures": [
             "Developed an online portfolio using React.js and Next.js",
             "Styled website using Tailwind CSS",
@@ -97,6 +97,24 @@ const boxList = [
         "projectGit": "https://github.com/myang5128/Portfolio",
         "projectLink": "https://portfolio-michaely-dev.vercel.app",
         "tags": ["All", "Web Development"],
+      },
+      {
+        "projectName": "Spotify Playlist Builder",
+        "projectID": 5,
+        "projectTeamStyle": "Independent",
+        "projectDescription": "A script that scrapes data from Billboard Hot 100 songs and adds it to a Spotify playlist using Spotify's APIs",
+        "projectFeatures": [
+            "Web scraping functionality with BeautifulSoup",
+            "Utilized APIs to support Spotify playlist creation",
+        ],
+        "projectTechStack": [
+            "Python",
+            "Scraping",
+            "APIs",
+        ],
+        "projectGit": "https://github.com/myang5128/Portfolio",
+        "projectLink": "https://portfolio-michaely-dev.vercel.app",
+        "tags": ["All", "Python"],
       },
     ]
 
