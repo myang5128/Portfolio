@@ -11,6 +11,7 @@ const skillList = [
             "Java",
             "Object-Oriented Programming",
             "Model-View-Controller Architecture",
+            "Spring Boot",
         ]
     },
     {
